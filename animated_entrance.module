@@ -1,0 +1,9 @@
+<?php 
+
+function animated_entrance_page_attachments_alter(array &$page) {
+  $route = \Drupal::routeMatch();
+  $node = $route->getParameter('node');
+  if ($node) {
+    $page['#attached']['library'][] = 'animated_entrance/assets';
+  }
+}

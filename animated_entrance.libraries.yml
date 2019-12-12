@@ -1,0 +1,7 @@
+assets:
+  version: 1.x
+  css:
+    theme:
+      css/animated-entrance.css: {}
+  js:
+    js/animated-entrance.js: {}

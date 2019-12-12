@@ -1,0 +1,5 @@
+name: Animated Entrance
+type: module
+description: Animate elements as they scroll into view
+package: Sore Bear Development
+core: 8.x
